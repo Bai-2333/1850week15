@@ -260,7 +260,7 @@ call Sys.shiftLeft 2
 push constant 31
 call Sys.computeParity 1
 
-    call Sys.encode 1
+call Sys.encode 1
 
 label WHILE
     goto WHILE
