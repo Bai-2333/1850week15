@@ -249,6 +249,17 @@ return
 // rejected.
 //
 function Sys.init 0
+push constant 12 
+push constant 6 
+call Sys.xor 2 
+
+push constant 6
+push constant 2
+call Sys.shiftLeft 2 
+
+push constant 31
+call Sys.computeParity 1
+
     call Sys.encode 1
 
 label WHILE
