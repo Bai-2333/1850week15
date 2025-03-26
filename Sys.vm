@@ -123,6 +123,5 @@ push local 0
 return
 
 // ========== EMPTY init (Required but should be empty for testing) ==========
-function Sys.init 0
-return
+
 
